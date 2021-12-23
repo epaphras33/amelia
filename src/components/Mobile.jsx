@@ -79,7 +79,7 @@ const MobileStyled = styled.div`
         .desc {
             margin-top: 1rem;
             line-height: 1.7;
-            font-size: 14px;
+            font-size: 16px;
         }
     }
         

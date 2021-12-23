@@ -44,7 +44,7 @@ const PCStyled = styled.div`
         justify-content: center;
         .PC-left-wrapper {
             padding: 1rem;
-            padding-top: 12rem;
+            padding-top: 5rem;
             height: 50%;
             display: flex;
             flex-direction: column;
@@ -54,11 +54,10 @@ const PCStyled = styled.div`
                 margin-top: 1rem;
             }
             .PC-name {
-                margin-top: 1rem;
+                margin: 1rem 0;
                 font-size: 50px;
             }
             .PC-title {
-                margin-top: 1rem;
                 height: 50px;
                 overflow: hidden;
                 .PC-title-wrapper {
@@ -89,7 +88,7 @@ const PCStyled = styled.div`
             .PC-desc {
                 margin-top: 1rem;
                 line-height: 1.7;
-                font-size: 16px;
+                font-size: 18px;
             }
         }
     }

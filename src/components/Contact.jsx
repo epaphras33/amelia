@@ -188,14 +188,14 @@ const ContactStyled = styled.div`
             }
         }
         .contact-info-item {
-            font-size: 14px;
+            font-size: 16px;
             margin: 1.5rem 0;
             display: flex;
             align-items: center;
             justify-content: start;
             min-height: 2vh;
             @media screen and (min-width: 1025px) {
-                font-size: 16px;
+                font-size: 18px;
             }
             .contact-icon {
                 width: 30px;
@@ -240,10 +240,10 @@ const ContactStyled = styled.div`
             
         }
         .contact-desc {
-            font-size: 14px;
+            font-size: 16px;
             line-height: 1.7;
             @media screen and (min-width: 1025px) {
-                font-size: 16px;
+                font-size: 18px;
             }
         }
         form {
@@ -256,7 +256,7 @@ const ContactStyled = styled.div`
                 margin-bottom: 3rem;
                 border: none;
                 padding: 5px 10px;
-                font-size: 14px;
+                font-size: 16px;
                 border-radius: 2px;
                 text-transform: uppercase;
                 background-color: #18d26e;
@@ -268,7 +268,7 @@ const ContactStyled = styled.div`
                 }
                 @media screen and (min-width: 1025px) {
                     padding: 10px 15px;
-                    font-size: 16px;
+                    font-size: 18px;
                 }
             }
         }

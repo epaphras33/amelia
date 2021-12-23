@@ -36,7 +36,7 @@ const ToggleStyled = styled.div`
     align-items: center;
     justify-content: space-around;
     z-index: 999;
-    overflow-x: hidden;
+    overflow: hidden;
     .toggle-icon {
         width: 15px;
         height: 15px;

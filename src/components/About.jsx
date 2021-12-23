@@ -101,9 +101,9 @@ const AboutStyled = styled.div`
         }
         .about-sub {
             line-height: 1.7;
-            font-size: 14px;
+            font-size: 16px;
             @media screen and (min-width: 1025px) {
-                font-size: 16px;
+                font-size: 18px;
             }
         }
         .about-award {
@@ -115,6 +115,7 @@ const AboutStyled = styled.div`
                 width: 75px;
                 height: 75px;
                 border-radius: 2px;
+                margin-right: 10px;
                 @media screen and (min-width: 1025px) {
                     width: 150px;
                     height: 150px;
@@ -134,9 +135,9 @@ const AboutStyled = styled.div`
                     }
                 }
                 .about-award-desc {
-                    font-size: 14px;
+                    font-size: 16px;
                     @media screen and (min-width: 1025px) {
-                        font-size: 16px;
+                        font-size: 18px;
                     }
                 }
             }
