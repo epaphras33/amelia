@@ -68,6 +68,10 @@ const ProductListStyled = styled.div`
             align-items: start;
             margin: 10px 0;
             min-height: 2vh;
+            font-size: 16px;
+            @media screen and (min-width: 1025px) {
+                font-size: 18px;
+            }
             .check-icon {
                 color: #18d26e;
                 margin-right: 10px;
